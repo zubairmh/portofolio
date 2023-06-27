@@ -1,8 +1,11 @@
 import Hero from "@/components/hero";
-export default function Home() {
+import Pagetransition from "@/components/pagetransition";
+export default function Home(props, ref) {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Hero/>
-    </div>
-  )
+      <Pagetransition ref={ref}>
+        <div className="flex flex-col min-h-screen">
+          <Hero />
+        </div>
+      </Pagetransition>
+  );
 }
