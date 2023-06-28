@@ -15,9 +15,9 @@ export default function Hero() {
         <AvatarImage src="https://github.com/zubairmh.png" />
         <AvatarFallback>ZM</AvatarFallback>
       </Avatar>
-      <span className={rubik.className}>Hi, I'm Zubair 👋🏻</span>
+      <span className={rubik.className}>Hi, I&apos;m Zubair 👋🏻</span>
       <h1
-        className={`text-5xl text-center ${inter.className} tracking-wide leading-tight from-gray-300  to-gray-600 bg-gradient-to-r bg-clip-text text-transparent`}
+        className={`text-5xl text-center ${inter.className} tracking-wide leading-tight from-white  to-gray-700 bg-gradient-to-bl bg-clip-text text-transparent`}
       >
         Building modern and <br /> scalable applications <br /> for the future
       </h1>

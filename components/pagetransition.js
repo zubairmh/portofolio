@@ -15,10 +15,6 @@ function PageTransition({ children, ...rest } , ref) {
 		onTheRight = { y: '-100%', opacity: 1, }
 		onTheLeft = { y: '100%', opacity: 0, }
 	}
-	// if(router.asPath=="/projects" && lastState=="/projects") {
-	// 	onTheRight = { y: '-100%', opacity: 1, }
-	// 	onTheLeft = { y: '100%', opacity: 0, }
-	// }
 	if(router.asPath=="/projects" && lastState=="/socials") {
 		onTheRight = { y: '-100%', opacity: 1, }
 		onTheLeft = { y: '100%', opacity: 0, }
