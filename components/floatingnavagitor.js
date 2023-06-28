@@ -14,7 +14,7 @@ export default function FloatingNavigator({ children }) {
           />
           <Link
             className="bg-white w-3 h-3 rounded-full hover:scale-150 delay-50 ease-in-out transition"
-            href="/"
+            href="/socials"
           />
         </div>
       </div>
